@@ -1,6 +1,6 @@
 import turtle
 tr=turtle.Turtle()
-tr.speed(1)
+tr.speed(2)
 tr.penup()
 tr.goto(-150, -150)
 tr.setheading(45)
@@ -55,3 +55,5 @@ tr.setheading(270)
 tr.forward(140)
 tr.setheading(180)
 tr.forward(70)
+tr.hideturtle()
+turtle.done()
