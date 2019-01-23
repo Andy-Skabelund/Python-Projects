@@ -1,8 +1,0 @@
-print("Welcome to the Cuboid Calculator!")
-print("Please enter values in feet.")
-l = input('Enter the length:')
-print(l)
-w = input('Enter the width:')
-print(w)
-h = input('Enter the height:')
-print(h)
