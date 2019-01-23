@@ -1,8 +1,12 @@
+# Andy Skabelund
+# Assignment 4
+# Draws a snowman.
 import turtle
 tr=turtle.Turtle()
 tr.speed(7)
 tr.penup()
 tr.goto(0, -200)
+# Draws 3 circles for the body
 tr.color("cyan")
 tr.pendown()
 tr.circle(100)
@@ -16,6 +20,7 @@ tr.pendown()
 tr.circle(50)
 tr.penup()
 tr.goto(-25, 200)
+# Draws and fills eyes
 tr.color("black")
 tr.begin_fill()
 tr.pendown()
@@ -30,12 +35,14 @@ tr.circle(12.5)
 tr.end_fill()
 tr.penup()
 tr.goto(-20, 185)
+# Draws smile
 tr.pendown()
 tr.setheading(270)
 tr.width(10)
 tr.circle(20, 180)
 tr.penup()
 tr.goto(-30, 240)
+# Draws and fills hat
 tr.begin_fill()
 tr.fillcolor("yellow")
 tr.pendown()
@@ -58,6 +65,7 @@ tr.end_fill()
 tr.penup()
 tr.goto(-75, 60)
 tr.setheading(225)
+# Draws stick arms
 tr.pendown()
 tr.forward(100)
 tr.setheading(135)
@@ -95,6 +103,7 @@ tr.forward(30)
 tr.penup()
 tr.goto(0, 10)
 tr.setheading(0)
+# Draws and fills coat buttons
 tr.pendown()
 tr.begin_fill()
 tr.fillcolor("red")
